@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_in_pages",
+  "info": {
+    "singularName": "sign-in-page",
+    "pluralName": "sign-in-pages",
+    "displayName": "SignIn Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_layout_artist_info_sections",
+  "info": {
+    "displayName": "ArtistInfoSection"
+  },
+  "options": {},
+  "attributes": {
+    "til": {
+      "type": "string"
+    }
+  }
+}

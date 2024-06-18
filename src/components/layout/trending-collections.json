@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_trending_collections",
+  "info": {
+    "displayName": "trendingCollections",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "collections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::collection.collection"
+    }
+  }
+}
